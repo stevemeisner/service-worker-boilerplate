@@ -1,0 +1,1 @@
+console.log('printed from a servicer worker loaded JS file.');
