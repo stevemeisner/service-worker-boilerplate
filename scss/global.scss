@@ -1,0 +1,63 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,800,400italic);
+
+@import "nav";
+@import "tabs";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.main-header {
+  text-align: center;
+  background: black;
+  color: white;
+  padding: 3rem 5rem 3rem;
+  h1 {
+    margin: 0 0 0.5rem 0;
+  }
+  a {
+    color: white;
+  }
+}
+
+h1 {
+  font-size: 3rem;
+  margin: 0 0 1rem 0;
+}
+p {
+  margin: 0 0 0.5rem 0;
+}
+
+main.tabs {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.speaker-list {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  li {
+    width: 32%;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 4px;
+    padding: 40px 10px;
+  }
+}
+
+.schedule {
+  dt {
+    font-weight: bold;
+  }
+  dt ~ dt {
+    margin-top: 1rem;
+  }
+}
